@@ -1,6 +1,8 @@
+該 Repository 由 AI 生成，如有任何問題，請直接至 Discussions 討論。
+
 # Git Patch Pusher
 
-用標準 C 寫的**終端機推箱子**，用來練習 GitHub 貢獻流程。
+推箱子小遊戲
 
 初始版本有 2 個可通關的教學關卡，以及 28 個已完成地圖、但解鎖判定有問題的挑戰關卡。**每修好一個 issue，就多開一關可以玩。** 大多只要改一行，適合第一次 fork、clone、branch、add、commit、push 和 PR。
 
