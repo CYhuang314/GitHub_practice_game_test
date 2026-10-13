@@ -194,7 +194,7 @@ src/render.c           ASCII 終端機畫面
 src/unlocks/*.c        學員主要修改的 28 個小題目
 run.cmd / run.ps1      Windows 啟動入口
 run.sh                macOS / Linux / Git Bash 啟動入口
-workshop/issues/       中文 issue 內容與驗收方式
+workshop/issues/       中文問題回報與功能需求
 scripts/               編譯與測試
 ```
 
