@@ -90,6 +90,7 @@ if ($CompilerName -in @('cl', 'clang-cl')) {
         $Sources + @('/Fe:' + $OutputPath)
 } else {
     $Arguments = @('-std=c11', '-Wall', '-Wextra', '-Wpedantic', '-Werror', '-O2',
+        '-D_CRT_SECURE_NO_WARNINGS',
         '-I', (Join-Path $ProjectRoot 'include')) + $Sources + @('-o', $OutputPath)
 }
 Write-Host ('Compiler: ' + $Compiler)
