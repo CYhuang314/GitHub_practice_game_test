@@ -1,0 +1,8 @@
+/build/
+/.git-game-progress
+/test-progress.save
+*.exe
+*.o
+.DS_Store
+
+/.instructor/
